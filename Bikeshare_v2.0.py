@@ -21,7 +21,7 @@ def get_filters():
     while True:
         city_input = input("\n Select the name for which you want to explore data Chicago,Washington,New York City \n").lower()
         if city_input not in CITY_DATA:
-            print("Given Input is Incorrect Select from the given Name")
+            print("Given Input is Incorrect only selection is valid from the given list")
             continue
         else:
             city = city_input
@@ -34,7 +34,7 @@ def get_filters():
     while True:
         month_input = input("\n Enter the month name for which you want to explore data of January,February,March,April,May,June \n").title()
         if month_input not in month_list:
-            print("Given input is incorrect")
+            print("Given input is incorrect kindly correct it to proceed further")
             continue
         else:
             month = month_input
@@ -46,7 +46,7 @@ def get_filters():
     while True:
         week_day_input = input("\n Enter the week day name for which you want to explore data \n").title()
         if week_day_input not in week_day_list:
-            print("Given input incorrect")
+            print("Given input incorrect kindly correct it to proceed further")
             continue
         else:
             day = week_day_input

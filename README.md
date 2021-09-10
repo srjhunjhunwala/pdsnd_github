@@ -14,6 +14,6 @@ In this project, I have used data provided by [Motivate](https://www.motivateco.
 These files had more columns and they differed in format in many cases Some [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) has been performed to condense these files to the above core six columns to make the analysis and the evaluation of your Python skills more straightforward.
 
 ### Credits
-Markdown cheatshet is really helpful - [Link](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf )
+Markdown cheatshet is really helpful - [Link](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) also [Mode](https://www.geeksforgeeks.org/python-statistics-mode-function) Has helped me in understanding the function.
 
 
